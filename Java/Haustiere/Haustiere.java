@@ -1,3 +1,5 @@
+package Java.Haustiere;
+
 abstract class Haustiere{
   
   //Instanzvariablen für alle Tiere

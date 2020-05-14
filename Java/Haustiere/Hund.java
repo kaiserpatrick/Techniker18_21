@@ -1,3 +1,5 @@
+package Java.Haustiere;
+
 class Hund extends Haustiere{
   // neue Instanzvariable nicht in Katze
   String kategorie;
