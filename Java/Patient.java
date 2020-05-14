@@ -1,3 +1,5 @@
+package Java;
+
 class Patient{
     private String name;
     private String vorname;

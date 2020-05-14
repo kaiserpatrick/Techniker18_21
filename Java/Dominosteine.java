@@ -1,3 +1,5 @@
+package Java;
+
 public class Dominosteine {
     public static void main(String args[]) {
         int innen, aussen;

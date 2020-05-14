@@ -1,3 +1,5 @@
+package Java;
+
 class BankkontoTest {
     public static void main(String[] args) {
         Bankkonto konto1 = new Bankkonto();

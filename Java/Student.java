@@ -1,3 +1,5 @@
+package Java;
+
 class Student {
     // Instanzvariablen: jeder Studengt besitzt seine eigenen
     private String name;

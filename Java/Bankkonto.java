@@ -1,3 +1,5 @@
+package Java;
+
 class Bankkonto {
     private double kontostand;
     private String besitzer;

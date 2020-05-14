@@ -1,4 +1,4 @@
-package Videoverleih;
+package Java.Videoverleih;
 
 class VideoVerleih {
     public static void main ( String args[] ) {

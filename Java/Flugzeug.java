@@ -1,3 +1,5 @@
+package Java;
+
 class Flugzeug {
     private String hersteller;      // Steht fuer Herstellername
     private int maxSpeed;           // Steht fuer Max. Geschwindigkeit

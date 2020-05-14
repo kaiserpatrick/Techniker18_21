@@ -1,4 +1,4 @@
-package Videoverleih;
+package Java.Videoverleih;
 
 class Videoband {
     String   titel;        // Titel des Videos

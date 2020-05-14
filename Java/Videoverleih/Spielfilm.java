@@ -1,4 +1,4 @@
-package Videoverleih;
+package Java.Videoverleih;
 
 class Spielfilm extends Videoband {
     String  regisseur;     // Name des Regisseurs
