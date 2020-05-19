@@ -47,3 +47,12 @@ Die Klasse Katze bekommt eine Instanzvariable haltung (Typ String). Es wird zwei
 Erweitern Sie die Konstruktoren der Subklassen um eine int-Variable, über die die Instanzvariablen kategorie bzw. haltung entsprechend initialisiert werden.
 
 Überschreiben Sie in den Subklassen die Methode anzeigen() der Superklasse. Sie soll zusätzlich die Kategorie bzw. den Typ der Haltung ausgeben.
+
+# Aufgabe - Aufgabe 1 — Array von Haustieren (http://www.gailer-net.de/tutorials/java3/Notes/chap53/progExercises53.html9)
+Die folgenden Aufgaben bauen auf den Aufgaben der beiden vorherigen Kapitel auf.
+
+Erstellen Sie ein Array vom Typ Haustiere, das fünf Elemente aufnehmen kann. Erzeugen Sie dann 5 Objekte vom Typ Hund und Katze und weisen Sie diese den Slots des Arrays zu.
+
+Rufen Sie dann in einer for-Schleife die fuettern() und anzeigen() Methode für die Haustiere auf.
+
+Ändern Sie die friss() Methode der Klasse Hund. Kleine Hunde fressen weiterhin 1 Einheit des Futtervorrats, mittelgroße Hunde 1.5 Einheiten und große Hunde fressen 2.0 Einheiten.

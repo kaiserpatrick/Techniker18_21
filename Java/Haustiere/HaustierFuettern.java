@@ -4,13 +4,14 @@ class HaustierFuettern{
   
   public static void main(String[] args){
 
-    Haustiere[] hFeld= new Haustiere[5];
+    Haustiere[] hFeld= new Haustiere[6];
 
     hFeld[0] = new Katze("Minka", 1.0, 1);
     hFeld[1] = new Hund("Rambo", 9.0, 3);
     hFeld[2] = new Hund("Isi", 4.0,2);
     hFeld[3] = new Katze("Morle", 1.5, 2);
     hFeld[4] = new Hund("Strolchie", 3.0, 1);
+    hFeld[5] = new Kaninchen("Fips", 2.0, 1);
 
     for(int i = 0; i < hFeld.length; i++) {
       hFeld[i].fuettern();
