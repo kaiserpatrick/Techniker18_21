@@ -3,7 +3,6 @@ package Java.Haustiere;
 class Hund extends Haustiere{
   // neue Instanzvariable nicht in Katze
   String kategorie;
-  double einheit;
   
   //Haustiere(String name, double futtervorrat)
   Hund(String name, double futtervorrat, int kat){
@@ -11,15 +10,12 @@ class Hund extends Haustiere{
     switch (kat) {
       case  1: 
             kategorie = "Kleinhund";
-            einheit = 1.0;
         break;
       case  2: 
             kategorie = "Mittelgrosse Hunde";
-            einheit = 1.5;
         break;
       case  3:
             kategorie = "Große Hunde";
-            einheit = 2.0;
         break;
       default: 
         
@@ -27,8 +23,18 @@ class Hund extends Haustiere{
   }
   
   public void friss(){
-    System.out.println(name + ": " + futtervorrat);
-    futtervorrat = futtervorrat - einheit; 
+    System.out.print(futtervorrat + " ");
+    switch (kategorie) {
+      case  "Kleinhund":
+            futtervorrat = futtervorrat - 1.0; 
+        break;
+      case  "Mittelgrosse Hunde":
+            futtervorrat = futtervorrat - 1.5;  
+        break;
+      case  "Große Hunde":
+            futtervorrat = futtervorrat - 2.0; 
+        break;
+    }
   } 
       
   public void sprich(){
@@ -36,6 +42,7 @@ class Hund extends Haustiere{
   }
   
   public void anzeigen(){
+    System.out.println("");
     System.out.print("(Kategorie: " + kategorie + ") ");
     super.anzeigen();
   }    

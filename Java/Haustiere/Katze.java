@@ -20,7 +20,7 @@ class Katze extends Haustiere{
   }
 
   public void friss(){
-    System.out.println(name + ": " + futtervorrat);
+    System.out.print(futtervorrat + " ");
     futtervorrat = futtervorrat - 0.5;
   }
         
@@ -29,6 +29,7 @@ class Katze extends Haustiere{
   }
   
   public void anzeigen(){
+    System.out.println("");
     System.out.print("(Haltung: " + haltung + ") ");
     super.anzeigen();
   }    
