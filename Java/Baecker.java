@@ -1,5 +1,3 @@
-package Java;
-
 class Baecker {
     private String name;
     private int stufe;

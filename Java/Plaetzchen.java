@@ -1,5 +1,3 @@
-package Java;
-
 class Plaetzchen {
 
     // Instanzvariablen

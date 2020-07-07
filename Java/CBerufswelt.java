@@ -1,5 +1,3 @@
-package Java;
-
 class CBerufswelt {
     public static void main(String[] args) {
         Baecker thomas = new Baecker();

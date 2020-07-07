@@ -1,5 +1,3 @@
-package Java;
-
 class FlugzeugTest {
     public static void main(String[] args) {
         Flugzeug flug1 = new Flugzeug("Boeing", 950, 1);
